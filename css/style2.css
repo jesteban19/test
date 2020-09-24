@@ -1,0 +1,79 @@
+html{
+	height: 100%;
+}
+body{
+  	overflow: hidden;
+  	background-color: red;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.menu{
+	list-style: none;
+	display: flex;
+}
+
+.menu li{
+	padding:5px 10px;
+	background-color: #ddd;
+	border-radius: 8px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#333;
+	font-size: 13px;
+}
+.menu li a:hover{
+	font-weight: bold;
+}
+
+.padre-tarjeta{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tarjeta{
+	text-align: center;
+	display: flex;
+	justify-content:center;
+}
+
+.tarjeta .contenido{
+	width: 70%;
+	border:1px solid #333;
+	color:#fff;
+	font-family: verdana;
+
+}
+
+.tarjeta .contenido .texto{
+	background-color: #333;
+}
+
+.tarjeta .contenido .texto p{
+	margin: 0px;
+	padding:15px 20px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.tarjeta .contenido h4{
+	background-color: #c0392b;
+	margin: 0px;
+	padding:10px;
+
+}
+
+.tarjeta .contenido .imagen{
+	background-color: #fff;
+}
+
+
+
